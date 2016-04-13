@@ -43,7 +43,6 @@ public class Main extends JavaPlugin {
      * - Make tab animation go each individual letter instead of word
      * - Make all instances of player naming show their house color
      * - Nick name support
-     * - /persona info another player
      * - Start saving player data to config and write API tools for accessing it
      * - Make every day have a new chat log txt file
      * - Overhead scoreboard for health

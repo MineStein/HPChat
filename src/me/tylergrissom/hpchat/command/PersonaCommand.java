@@ -9,6 +9,7 @@ import org.bukkit.Bukkit;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
+import org.bukkit.inventory.ItemStack;
 import org.bukkit.scheduler.BukkitRunnable;
 
 /**
@@ -24,55 +25,96 @@ public class PersonaCommand extends CommandBase {
 
     @Override
     void execute(CommandSender sender, Command command, String[] args) {
-        String[] help = new String[] { "§a§l*** §7/persona §a§l", "§7/persona info - displays player info" };
+        String[] help = new String[] { "§a§l*** §7/persona §a§l", "§7/persona info [target] - displays player persona info" };
 
         if (args.length == 0) {
             sender.sendMessage(help);
         } else {
             String arg = args[0];
 
-            if (arg.equalsIgnoreCase("info")) {
-                if (sender instanceof Player) {
-                    Player player = (Player) sender;
+            if (args.length == 1) {
+                if (arg.equalsIgnoreCase("info")) {
+                    if (sender instanceof Player) {
+                        Player player = (Player) sender;
 
-                    final char houseColor = plugin.getPlayerUtility().getHouseColor(player);
-                    final SimpleScoreboard scoreboard = new SimpleScoreboard("§" + houseColor + "§l" + player.getName());
+                        final char houseColor = plugin.getPlayerUtility().getHouseColor(player);
+                        final SimpleScoreboard scoreboard = new SimpleScoreboard("§" + houseColor + "§l" + player.getName());
 
-                    if (MagicPlugin.getAPI().isWand(player.getItemInHand())) {
-                        player.sendMessage("§7Fetching information...");
+                        if (MagicPlugin.getAPI().isWand(player.getItemInHand())) {
+                            player.sendMessage("§7Fetching information...");
 
-                        final Wand wand = MagicPlugin.getAPI().getWand(player.getItemInHand());
+                            final Wand wand = MagicPlugin.getAPI().getWand(player.getItemInHand());
 
-                        scoreboard.blankLine();
-                        scoreboard.add("§7House");
-                        scoreboard.add("  " + plugin.getPlayerUtility().getHouse(player, true));
-                        scoreboard.blankLine();
-                        scoreboard.add("§7Year");
-                        scoreboard.add("  §" + houseColor + "§l1st year");
-
-                        if (wand != null) {
                             scoreboard.blankLine();
-                            scoreboard.add("§7Spells learnt");
-                            scoreboard.add("  §" + houseColor + "§l" + wand.getSpells().size());
-                        }
+                            scoreboard.add("§7House");
+                            scoreboard.add("  " + plugin.getPlayerUtility().getHouse(player, true));
+                            scoreboard.blankLine();
+                            scoreboard.add("§7Year");
+                            scoreboard.add("  §" + houseColor + "§l1st year");
 
-                        scoreboard.build();
-                        scoreboard.send(player);
-
-                        Bukkit.getScheduler().runTaskLater(plugin, new BukkitRunnable() {
-                            @Override
-                            public void run() {
-                                player.setScoreboard(Bukkit.getScoreboardManager().getNewScoreboard());
+                            if (wand != null) {
+                                scoreboard.blankLine();
+                                scoreboard.add("§7Spells learnt");
+                                scoreboard.add("  §" + houseColor + "§l" + wand.getSpells().size());
                             }
-                        }, 100);
+
+                            scoreboard.build();
+                            scoreboard.send(player);
+
+                            Bukkit.getScheduler().runTaskLater(plugin, new BukkitRunnable() {
+                                @Override
+                                public void run() {
+                                    player.setScoreboard(Bukkit.getScoreboardManager().getNewScoreboard());
+                                }
+                            }, 100);
+                        } else {
+                            sender.sendMessage("§4§lX §cYou must have your wand in your hand to view your persona info");
+                        }
                     } else {
-                        sender.sendMessage("§4§lX §cYou must have your wand in your hand to view your persona info");
+                        sender.sendMessage("§4§lX §cYou cannot execute this command from console");
                     }
                 } else {
-                    sender.sendMessage("§4§lX §cYou cannot execute this command from console");
+                    sender.sendMessage("§4§lX §cUnknown sub-command");
                 }
             } else {
-                sender.sendMessage("§4§lX §cUnknown sub-command");
+                if (arg.equalsIgnoreCase("info")) {
+                    Player target = Bukkit.getPlayer(args[1]);
+                    
+                    if (target != null) {
+                        final char houseColor = plugin.getPlayerUtility().getHouseColor(target);
+                        final SimpleScoreboard scoreboard = new SimpleScoreboard("§" + houseColor + "§l" + target.getName());
+
+                        target.sendMessage("§7Fetching information...");
+
+                        for (ItemStack item : target.getInventory().getContents()) {
+                            if (MagicPlugin.getAPI().isWand(item)) {
+                                Wand wand = MagicPlugin.getAPI().getWand(item);
+
+                                scoreboard.blankLine();
+                                scoreboard.add("§7House");
+                                scoreboard.add("  " + plugin.getPlayerUtility().getHouse(target, true));
+                                scoreboard.blankLine();
+                                scoreboard.add("§7Year");
+                                scoreboard.add("  §" + houseColor + "§l1st year");
+                                scoreboard.blankLine();
+                                scoreboard.add("§7Spells learnt");
+                                scoreboard.add("  §" + houseColor + "§l" + wand.getSpells().size());
+
+                                scoreboard.build();
+                                scoreboard.send(target);
+
+                                Bukkit.getScheduler().runTaskLater(plugin, new BukkitRunnable() {
+                                    @Override
+                                    public void run() {
+                                        target.setScoreboard(Bukkit.getScoreboardManager().getNewScoreboard());
+                                    }
+                                }, 100);
+
+                                break;
+                            }
+                        }
+                    }
+                }
             }
         }
     }
