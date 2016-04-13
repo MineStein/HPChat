@@ -1,0 +1,60 @@
+name: HPChat
+version: 1.0.0
+main: me.tylergrissom.hpchat.Main
+
+commands:
+  msg:
+    usage: /msg <player> <message...>
+    description: Privately message another player.
+    aliases: [message, w, whisper]
+  clearchat:
+    usage: /clearchat <sub>
+    description: Clear the chat.
+    aliases: [cc]
+  spy:
+    usage: /spy <sub>
+    description: Toggles command/pm spying.
+  persona:
+    usage: /persona <sub>
+    description: View information about your persona.
+  hpchat:
+    usage: /hpchat <sub>
+    description: Central HPChat command
+
+permissions:
+  hpchat.*:
+    default: op
+    children:
+      hpchat.plugins: true
+      hpchat.clearchat: true
+      hpchat.clearchat.self: true
+      hpchat.clearchat.all: true
+      hpchat.spy: true
+      hpchat.spy.pm: true
+      hpchat.spy.command: true
+      hpchat.hpchat.*: true
+      hpchat.reload: true
+  hpchat.plugins:
+    default: op
+  hpchat.clearchat:
+    default: op
+    children:
+      hpchat.clearchat.self: true
+      hpchat.clearchat.all: true
+  hpchat.clearchat.self:
+    default: op
+  hpchat.clearchat.all:
+    default: op
+  hpchat.spy:
+    default: op
+    children:
+      hpchat.spy.pm: true
+      hpchat.spy.command: true
+  hpchat.hpchat.*:
+    default: op
+    children:
+      hpchat.hpchat.reload: true
+  hpchat.hpchat.reload:
+    default: op
+
+depend: [Vault]
