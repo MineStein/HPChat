@@ -84,8 +84,6 @@ public class PlayerUtility {
             }
         }
 
-        MagicPlugin.getAPI().getWandKeys();
-
         return null;
     }
 }

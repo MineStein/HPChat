@@ -1,12 +1,6 @@
 package me.tylergrissom.hpchat;
 
-import com.elmakers.mine.bukkit.action.ActionContext;
-import com.elmakers.mine.bukkit.action.ActionHandler;
-import com.elmakers.mine.bukkit.action.ActionHandlerContext;
-import com.elmakers.mine.bukkit.action.CastContext;
-import com.elmakers.mine.bukkit.batch.ActionBatch;
 import com.elmakers.mine.bukkit.magic.MagicPlugin;
-import me.tylergrissom.hpchat.action.PumpkinHeadAction;
 import me.tylergrissom.hpchat.command.*;
 import me.tylergrissom.hpchat.listener.*;
 import me.tylergrissom.hpchat.storage.Storage;
@@ -19,10 +13,8 @@ import net.milkbowl.vault.chat.Chat;
 import net.milkbowl.vault.permission.Permission;
 import org.bukkit.Bukkit;
 import org.bukkit.event.HandlerList;
-import org.bukkit.material.Pumpkin;
 import org.bukkit.plugin.RegisteredServiceProvider;
 import org.bukkit.plugin.java.JavaPlugin;
-import org.bukkit.scheduler.BukkitTask;
 
 /**
  * Copyright (c) 2013-2016 Tyler Grissom

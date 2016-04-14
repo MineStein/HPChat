@@ -5,17 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd374353-8dd4-48b3-a61b-2f1149f79194" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/HPChat/me/tylergrissom/hpchat/command/RulesCommand.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/me/tylergrissom/hpchat/command/RulesCommand.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HPChat/me/tylergrissom/hpchat/Main.class" afterPath="$PROJECT_DIR$/out/production/HPChat/me/tylergrissom/hpchat/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HPChat/me/tylergrissom/hpchat/command/PersonaCommand.class" afterPath="$PROJECT_DIR$/out/production/HPChat/me/tylergrissom/hpchat/command/PersonaCommand.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HPChat/config.yml" afterPath="$PROJECT_DIR$/out/production/HPChat/config.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HPChat/plugin.yml" afterPath="$PROJECT_DIR$/out/production/HPChat/plugin.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/config.yml" afterPath="$PROJECT_DIR$/src/config.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/me/tylergrissom/hpchat/Main.java" afterPath="$PROJECT_DIR$/src/me/tylergrissom/hpchat/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/plugin.yml" afterPath="$PROJECT_DIR$/src/plugin.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/me/tylergrissom/hpchat/command/PersonaCommand.java" afterPath="$PROJECT_DIR$/src/me/tylergrissom/hpchat/command/PersonaCommand.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/me/tylergrissom/hpchat/utility/PlayerUtility.java" afterPath="$PROJECT_DIR$/src/me/tylergrissom/hpchat/utility/PlayerUtility.java" />
     </list>
     <ignored path="HPChat.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,11 +29,45 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/me/tylergrissom/hpchat/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="43" column="7" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="7" />
+            <state relative-caret-position="486">
+              <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PlayerUtility.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/me/tylergrissom/hpchat/utility/PlayerUtility.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1088">
+              <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PersonaCommand.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/me/tylergrissom/hpchat/command/PersonaCommand.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="640">
+              <caret line="113" column="87" selection-start-line="113" selection-start-column="87" selection-end-line="113" selection-end-column="87" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MsgCommand.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/me/tylergrissom/hpchat/command/MsgCommand.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="392">
+              <caret line="57" column="51" selection-start-line="57" selection-start-column="51" selection-end-line="57" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -75,7 +101,6 @@
         <option value="$PROJECT_DIR$/src/me/tylergrissom/hpchat/scoreboard/SimpleScoreboard.java" />
         <option value="$PROJECT_DIR$/src/me/tylergrissom/hpchat/utility/GroupUtility.java" />
         <option value="$PROJECT_DIR$/src/me/tylergrissom/hpchat/task/ScoreboardTask.java" />
-        <option value="$PROJECT_DIR$/src/me/tylergrissom/hpchat/utility/PlayerUtility.java" />
         <option value="$PROJECT_DIR$/src/me/tylergrissom/hpchat/command/SpyCommnad.java" />
         <option value="$PROJECT_DIR$/src/me/tylergrissom/hpchat/command/SpyCommand.java" />
         <option value="$PROJECT_DIR$/src/me/tylergrissom/hpchat/listener/ResourcePackListener.java" />
@@ -106,11 +131,12 @@
         <option value="$PROJECT_DIR$/src/me/tylergrissom/hpchat/action/Reparifors.java" />
         <option value="$PROJECT_DIR$/src/me/tylergrissom/hpchat/action/RepariforsAction.java" />
         <option value="$PROJECT_DIR$/src/me/tylergrissom/hpchat/listener/DamageListener.java" />
-        <option value="$PROJECT_DIR$/src/me/tylergrissom/hpchat/command/PersonaCommand.java" />
         <option value="$PROJECT_DIR$/src/config.yml" />
         <option value="$PROJECT_DIR$/src/plugin.yml" />
         <option value="$PROJECT_DIR$/src/me/tylergrissom/hpchat/command/RulesCommand.java" />
         <option value="$PROJECT_DIR$/src/me/tylergrissom/hpchat/Main.java" />
+        <option value="$PROJECT_DIR$/src/me/tylergrissom/hpchat/utility/PlayerUtility.java" />
+        <option value="$PROJECT_DIR$/src/me/tylergrissom/hpchat/command/PersonaCommand.java" />
       </list>
     </option>
   </component>
@@ -201,6 +227,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="hpchat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HPChat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HPChat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hpchat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utility" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -694,13 +742,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/tylergrissom/hpchat/utility/PlayerUtility.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/Desktop/Server/plugins/Magic-5.5.4.jar!/com/elmakers/mine/bukkit/magic/MagicPlugin.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="397">
@@ -868,18 +909,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/tylergrissom/hpchat/command/PersonaCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="27" column="118" selection-start-line="27" selection-start-column="118" selection-end-line="27" selection-end-column="118" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/config.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/plugin.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="24" column="46" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/tylergrissom/hpchat/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/tylergrissom/hpchat/command/RulesCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/tylergrissom/hpchat/utility/PlayerUtility.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1088">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -891,27 +961,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/plugin.yml">
+    <entry file="file://$PROJECT_DIR$/src/me/tylergrissom/hpchat/command/PersonaCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="24" column="46" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/tylergrissom/hpchat/command/RulesCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/tylergrissom/hpchat/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="43" column="7" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="7" />
+        <state relative-caret-position="640">
+          <caret line="113" column="87" selection-start-line="113" selection-start-column="87" selection-end-line="113" selection-end-column="87" />
           <folding />
         </state>
       </provider>

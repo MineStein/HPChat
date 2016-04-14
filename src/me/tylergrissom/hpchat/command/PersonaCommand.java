@@ -86,32 +86,32 @@ public class PersonaCommand extends CommandBase {
 
                         target.sendMessage("§7Fetching information...");
 
-                        for (ItemStack item : target.getInventory().getContents()) {
-                            if (MagicPlugin.getAPI().isWand(item)) {
-                                Wand wand = MagicPlugin.getAPI().getWand(item);
+                        ItemStack wandItem = plugin.getPlayerUtility().findWand(target);
 
-                                scoreboard.blankLine();
-                                scoreboard.add("§7House");
-                                scoreboard.add("  " + plugin.getPlayerUtility().getHouse(target, true));
-                                scoreboard.blankLine();
-                                scoreboard.add("§7Year");
-                                scoreboard.add("  §" + houseColor + "§l1st year");
-                                scoreboard.blankLine();
-                                scoreboard.add("§7Spells learnt");
-                                scoreboard.add("  §" + houseColor + "§l" + wand.getSpells().size());
+                        if (wandItem != null) {
+                            Wand wand = MagicPlugin.getAPI().getWand(wandItem);
 
-                                scoreboard.build();
-                                scoreboard.send(target);
+                            scoreboard.blankLine();
+                            scoreboard.add("§7House");
+                            scoreboard.add("  " + plugin.getPlayerUtility().getHouse(target, true));
+                            scoreboard.blankLine();
+                            scoreboard.add("§7Year");
+                            scoreboard.add("  §" + houseColor + "§l1st year");
+                            scoreboard.blankLine();
+                            scoreboard.add("§7Spells learnt");
+                            scoreboard.add("  §" + houseColor + "§l" + wand.getSpells().size());
 
-                                Bukkit.getScheduler().runTaskLater(plugin, new BukkitRunnable() {
-                                    @Override
-                                    public void run() {
-                                        target.setScoreboard(Bukkit.getScoreboardManager().getNewScoreboard());
-                                    }
-                                }, 100);
+                            scoreboard.build();
+                            scoreboard.send(target);
 
-                                break;
-                            }
+                            Bukkit.getScheduler().runTaskLater(plugin, new BukkitRunnable() {
+                                @Override
+                                public void run() {
+                                    target.setScoreboard(Bukkit.getScoreboardManager().getNewScoreboard());
+                                }
+                            }, 100);
+                        } else {
+                            sender.sendMessage("§4§lX §cThat player doesn't have a wand");
                         }
                     }
                 }
