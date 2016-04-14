@@ -37,7 +37,6 @@ public class Main extends JavaPlugin {
      * - Optional login required (blindness and everything until password on join)
      * - First join quiz (get gender to specify witch or wizard later, etc.)
      * - Player settings (login, etc.)
-     * - Rules listing
      * - Channels
      * - Year system
      * - Make tab animation go each individual letter instead of word
@@ -45,12 +44,12 @@ public class Main extends JavaPlugin {
      * - Nick name support
      * - Start saving player data to config and write API tools for accessing it
      * - Make every day have a new chat log txt file
-     * - Overhead scoreboard for health
      * - Modify username overhead to include house color
      * - Mod pre-made phrases
      * - Persona info keep
      * - Persona info shows ranks
      * - Change boss bar color (when 1.9) and boss bar text color based on house
+     * - /persona info [target] separate permission
      */
 
     // WARNING: DON'T USE UNLESS YOU HAVE TO (I.E. spell actions)
@@ -157,6 +156,7 @@ public class Main extends JavaPlugin {
         getCommand("spy").setExecutor(new SpyCommand(this));
         getCommand("persona").setExecutor(new PersonaCommand(this));
         getCommand("hpchat").setExecutor(new HpChatCommand(this));
+        getCommand("rules").setExecutor(new RulesCommand(this));
 
         setupPermissions();
         setupChat();

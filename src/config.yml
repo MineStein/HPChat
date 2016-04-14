@@ -3,10 +3,6 @@ boss-bar-messages:
   - "&7Coming soon> &b&oAlpha testing"
   - "&7Newest feature> &b&oMelofors spell"
 
-npcs:
-  0:
-    display-name: '&6'
-    player-commands:
-      - ''
-    console-commands:
-      - 'mgive @p firebolt 1'
+rules:
+  - "Use proper etiquette"
+  - "Be friendly towards your other players"

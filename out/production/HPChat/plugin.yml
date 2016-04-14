@@ -19,7 +19,10 @@ commands:
     description: View information about your persona.
   hpchat:
     usage: /hpchat <sub>
-    description: Central HPChat command
+    description: Central HPChat command.
+  rules:
+    usage: /rules
+    description: List all of the server rules.
 
 permissions:
   hpchat.*:
