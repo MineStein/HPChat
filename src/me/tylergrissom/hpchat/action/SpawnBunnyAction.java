@@ -1,18 +1,16 @@
 package me.tylergrissom.hpchat.action;
 
 import com.elmakers.mine.bukkit.action.BaseSpellAction;
-import com.elmakers.mine.bukkit.action.builtin.BurnAction;
-import com.elmakers.mine.bukkit.action.builtin.PotionEffectAction;
 import com.elmakers.mine.bukkit.api.action.CastContext;
 import com.elmakers.mine.bukkit.api.spell.SpellResult;
-import com.elmakers.mine.bukkit.slikey.effectlib.effect.DnaEffect;
 import me.tylergrissom.hpchat.Main;
-import me.tylergrissom.hpchat.utility.FireworkEffectUtility;
 import org.bukkit.Bukkit;
 import org.bukkit.Color;
 import org.bukkit.FireworkEffect;
-import org.bukkit.block.Block;
-import org.bukkit.entity.*;
+import org.bukkit.entity.Entity;
+import org.bukkit.entity.Firework;
+import org.bukkit.entity.Player;
+import org.bukkit.entity.Rabbit;
 import org.bukkit.inventory.meta.FireworkMeta;
 import org.bukkit.scheduler.BukkitRunnable;
 import org.bukkit.util.Vector;

@@ -6,3 +6,8 @@ boss-bar-messages:
 rules:
   - "Use proper etiquette"
   - "Be friendly towards your other players"
+
+players:
+  uuid:
+    lastKnownName: Username
+    sessionsPlayed: 0

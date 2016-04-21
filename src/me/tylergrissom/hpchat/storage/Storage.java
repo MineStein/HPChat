@@ -3,9 +3,7 @@ package me.tylergrissom.hpchat.storage;
 import me.tylergrissom.hpchat.Main;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 /**
  * Copyright (c) 2013-2016 Tyler Grissom
@@ -17,11 +15,13 @@ public class Storage {
     private Main plugin;
     private List<String> commandSpy;
     private List<String> pmSpy;
+    private List<String> silencio;
 
     public Storage(Main plugin) {
         this.plugin = plugin;
         this.commandSpy = new ArrayList<>();
         this.pmSpy = new ArrayList<>();
+        this.silencio = new ArrayList<>();
     }
 
     public List<String> getCommandSpy() {
@@ -30,5 +30,9 @@ public class Storage {
 
     public List<String> getPmSpy() {
         return pmSpy;
+    }
+
+    public List<String> getSilencio() {
+        return silencio;
     }
 }

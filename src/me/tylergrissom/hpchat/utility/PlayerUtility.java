@@ -1,6 +1,5 @@
 package me.tylergrissom.hpchat.utility;
 
-import com.elmakers.mine.bukkit.api.magic.MagicAPI;
 import com.elmakers.mine.bukkit.magic.MagicPlugin;
 import me.tylergrissom.hpchat.Main;
 import org.bukkit.entity.Player;

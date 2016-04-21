@@ -33,5 +33,13 @@ public class StorageCleanupTask extends BukkitRunnable {
                 plugin.getStorage().getPmSpy().remove(i);
             }
         }
+
+        for (int i = 0; i < plugin.getStorage().getSilencio().size(); i++) {
+            Player player = Bukkit.getPlayer(plugin.getStorage().getSilencio().get(i));
+
+            if (player == null) {
+                plugin.getStorage().getSilencio().remove(i);
+            }
+        }
     }
 }

@@ -1,8 +1,8 @@
 package me.tylergrissom.hpchat.utility;
 
 import me.tylergrissom.hpchat.Main;
-import net.minecraft.server.v1_8_R3.NBTTagCompound;
-import org.bukkit.craftbukkit.v1_8_R3.entity.CraftEntity;
+import net.minecraft.server.v1_9_R1.NBTTagCompound;
+import org.bukkit.craftbukkit.v1_9_R1.entity.CraftEntity;
 import org.bukkit.entity.Entity;
 
 /**
@@ -17,7 +17,7 @@ public class FreezeUtility {
     }
 
     public void freezeEntity(Entity en){
-        net.minecraft.server.v1_8_R3.Entity nmsEn = ((CraftEntity) en).getHandle();
+        net.minecraft.server.v1_9_R1.Entity nmsEn = ((CraftEntity) en).getHandle();
         NBTTagCompound compound = new NBTTagCompound();
         nmsEn.c(compound);
         compound.setByte("NoAI", (byte) 1);
@@ -25,7 +25,7 @@ public class FreezeUtility {
     }
 
     public void unfreezeEntity(Entity en){
-        net.minecraft.server.v1_8_R3.Entity nmsEn = ((CraftEntity) en).getHandle();
+        net.minecraft.server.v1_9_R1.Entity nmsEn = ((CraftEntity) en).getHandle();
         NBTTagCompound compound = new NBTTagCompound();
         nmsEn.c(compound);
         compound.setByte("NoAI", (byte) 0);

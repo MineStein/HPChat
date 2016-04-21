@@ -1,18 +1,13 @@
 package me.tylergrissom.hpchat.listener;
 
 import me.tylergrissom.hpchat.Main;
-import org.bukkit.Bukkit;
+import org.bukkit.configuration.ConfigurationSection;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerJoinEvent;
-import org.bukkit.scoreboard.DisplaySlot;
-import org.bukkit.scoreboard.Objective;
-import org.bukkit.scoreboard.Scoreboard;
-import org.bukkit.scoreboard.ScoreboardManager;
 
-import java.util.Timer;
-import java.util.TimerTask;
+import java.util.Objects;
 
 /**
  * Copyright (c) 2013-2016 Tyler Grissom
@@ -27,6 +22,22 @@ public class JoinListener implements Listener {
 
     @EventHandler
     public void onPlayerJoin(final PlayerJoinEvent event) {
+        final Player player = event.getPlayer();
+        ConfigurationSection section = plugin.getConfig().getConfigurationSection("players");
 
+        if (section.getConfigurationSection(player.getUniqueId().toString()) == null) {
+            ConfigurationSection newSection = section.createSection(player.getUniqueId().toString());
+
+            newSection.set("lastKnownName", player.getName());
+            newSection.set("sessionsPlayed", 1);
+        } else {
+            section = section.getConfigurationSection(player.getUniqueId().toString());
+
+            section.set("sessionsPlayed", section.getInt("sessionsPlayed") + 1);
+
+            if (!Objects.equals(section.getString("lastKnownName"), player.getName())) {
+                section.set("lastKnownName", player.getName());
+            }
+        }
     }
 }

@@ -1,10 +1,8 @@
 package me.tylergrissom.hpchat.task;
 
-import com.elmakers.mine.bukkit.slikey.effectlib.util.ParticleEffect;
 import me.tylergrissom.hpchat.Main;
 import net.md_5.bungee.api.ChatColor;
 import net.md_5.bungee.api.chat.TextComponent;
-import net.minecraft.server.v1_8_R3.PacketPlayOutWorldParticles;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 import org.bukkit.scheduler.BukkitRunnable;

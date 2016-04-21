@@ -5,7 +5,7 @@ import com.elmakers.mine.bukkit.api.action.CastContext;
 import com.elmakers.mine.bukkit.api.spell.SpellResult;
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.LivingEntity;
-import org.bukkit.potion.PotionEffect;
+import org.bukkit.entity.Player;
 
 /**
  * Copyright (c) 2013-2016 Tyler Grissom
@@ -18,6 +18,10 @@ public class RepariforsAction extends BaseSpellAction {
 
         if (entity instanceof LivingEntity) {
             LivingEntity livingEntity = (LivingEntity) entity;
+
+            if (livingEntity instanceof Player) {
+                ((Player) livingEntity).setFoodLevel(20);
+            }
 
             livingEntity.setFireTicks(0);
 

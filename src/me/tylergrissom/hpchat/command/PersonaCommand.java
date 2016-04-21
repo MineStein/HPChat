@@ -1,7 +1,6 @@
 package me.tylergrissom.hpchat.command;
 
 import com.elmakers.mine.bukkit.api.wand.Wand;
-import com.elmakers.mine.bukkit.magic.Mage;
 import com.elmakers.mine.bukkit.magic.MagicPlugin;
 import me.tylergrissom.hpchat.Main;
 import me.tylergrissom.hpchat.scoreboard.SimpleScoreboard;
@@ -79,40 +78,46 @@ public class PersonaCommand extends CommandBase {
             } else {
                 if (arg.equalsIgnoreCase("info")) {
                     Player target = Bukkit.getPlayer(args[1]);
-                    
+
                     if (target != null) {
-                        final char houseColor = plugin.getPlayerUtility().getHouseColor(target);
-                        final SimpleScoreboard scoreboard = new SimpleScoreboard("§" + houseColor + "§l" + target.getName());
+                        if (sender instanceof Player) {
+                            final char houseColor = plugin.getPlayerUtility().getHouseColor(target);
+                            final SimpleScoreboard scoreboard = new SimpleScoreboard("§" + houseColor + "§l" + target.getName());
 
-                        target.sendMessage("§7Fetching information...");
+                            target.sendMessage("§7Fetching information...");
 
-                        ItemStack wandItem = plugin.getPlayerUtility().findWand(target);
+                            ItemStack wandItem = plugin.getPlayerUtility().findWand(target);
 
-                        if (wandItem != null) {
-                            Wand wand = MagicPlugin.getAPI().getWand(wandItem);
+                            if (wandItem != null) {
+                                Wand wand = MagicPlugin.getAPI().getWand(wandItem);
 
-                            scoreboard.blankLine();
-                            scoreboard.add("§7House");
-                            scoreboard.add("  " + plugin.getPlayerUtility().getHouse(target, true));
-                            scoreboard.blankLine();
-                            scoreboard.add("§7Year");
-                            scoreboard.add("  §" + houseColor + "§l1st year");
-                            scoreboard.blankLine();
-                            scoreboard.add("§7Spells learnt");
-                            scoreboard.add("  §" + houseColor + "§l" + wand.getSpells().size());
+                                scoreboard.blankLine();
+                                scoreboard.add("§7House");
+                                scoreboard.add("  " + plugin.getPlayerUtility().getHouse(target, true));
+                                scoreboard.blankLine();
+                                scoreboard.add("§7Year");
+                                scoreboard.add("  §" + houseColor + "§l1st year");
+                                scoreboard.blankLine();
+                                scoreboard.add("§7Spells learnt");
+                                scoreboard.add("  §" + houseColor + "§l" + wand.getSpells().size());
 
-                            scoreboard.build();
-                            scoreboard.send(target);
+                                scoreboard.build();
+                                scoreboard.send(((Player) sender));
 
-                            Bukkit.getScheduler().runTaskLater(plugin, new BukkitRunnable() {
-                                @Override
-                                public void run() {
-                                    target.setScoreboard(Bukkit.getScoreboardManager().getNewScoreboard());
-                                }
-                            }, 100);
+                                Bukkit.getScheduler().runTaskLater(plugin, new BukkitRunnable() {
+                                    @Override
+                                    public void run() {
+                                        target.setScoreboard(Bukkit.getScoreboardManager().getNewScoreboard());
+                                    }
+                                }, 100);
+                            } else {
+                                sender.sendMessage("§4§lX §cThat player doesn't have a wand");
+                            }
                         } else {
-                            sender.sendMessage("§4§lX §cThat player doesn't have a wand");
+                            sender.sendMessage("§4§lX §cYou cannot execute this command from console");
                         }
+                    } else {
+                        sender.sendMessage("§4§lX §cThat player is offline");
                     }
                 }
             }

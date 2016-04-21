@@ -23,6 +23,7 @@ public class Main extends JavaPlugin {
 
     /**
      * TODO
+     * - Notification sound on message
      * - Prefix display limit
      * - Anti-spam
      * - Finish scoreboard

@@ -1,7 +1,5 @@
 package me.tylergrissom.hpchat.listener;
 
-import com.elmakers.mine.bukkit.magic.Mage;
-import com.elmakers.mine.bukkit.magic.MagicPlugin;
 import me.tylergrissom.hpchat.Main;
 import net.milkbowl.vault.chat.Chat;
 import org.bukkit.Bukkit;
@@ -33,7 +31,7 @@ public class ChatListener implements Listener {
         for (Player player : Bukkit.getOnlinePlayers()) {
             if (revision.contains(player.getName().replaceAll("[^a-zA-Z]", "").toLowerCase().trim())) {
                 if (!player.equals(sender)) {
-                    player.playSound(player.getLocation(), Sound.LEVEL_UP, 1F, 1F);
+                    player.playSound(player.getLocation(), Sound.ENTITY_PLAYER_LEVELUP, 1F, 1F);
 
                     plugin.getActionBarUtility().sendActionBar(player, "§b" + sender.getName() + " §7mentioned you in chat");
                 }
@@ -47,6 +45,14 @@ public class ChatListener implements Listener {
         Chat chat = plugin.getChat();
         StringBuilder builder = new StringBuilder();
         String[] groupNames = PermissionsEx.getUser(player).getGroupNames();
+
+        if (plugin.getStorage().getSilencio().contains(player.getUniqueId().toString())) {
+            player.sendMessage("§dYou are under the effects of a Silencing Charm which should wear off soon.");
+
+            event.setCancelled(true);
+
+            return;
+        }
 
         for (String groupName : groupNames) {
             if (groupName.toLowerCase().contains("gryffindor") ||

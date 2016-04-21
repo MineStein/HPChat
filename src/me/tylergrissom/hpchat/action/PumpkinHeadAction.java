@@ -1,7 +1,6 @@
 package me.tylergrissom.hpchat.action;
 
 import com.elmakers.mine.bukkit.action.BaseSpellAction;
-import com.elmakers.mine.bukkit.api.action.ActionHandler;
 import com.elmakers.mine.bukkit.api.action.CastContext;
 import com.elmakers.mine.bukkit.api.spell.SpellResult;
 import me.tylergrissom.hpchat.Main;

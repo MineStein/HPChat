@@ -1,11 +1,8 @@
 package me.tylergrissom.hpchat.command;
 
 import me.tylergrissom.hpchat.Main;
-import org.bukkit.Bukkit;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
-import org.bukkit.command.defaults.ReloadCommand;
-import org.bukkit.entity.Player;
 
 /**
  * Copyright (c) 2013-2016 Tyler Grissom

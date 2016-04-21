@@ -1,7 +1,6 @@
 package me.tylergrissom.hpchat.listener;
 
 import me.tylergrissom.hpchat.Main;
-import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
@@ -28,6 +27,10 @@ public class QuitListener implements Listener {
 
         if (plugin.getStorage().getPmSpy().contains(player.getUniqueId().toString())) {
             plugin.getStorage().getPmSpy().remove(player.getUniqueId().toString());
+        }
+
+        if (plugin.getStorage().getSilencio().contains(player.getUniqueId().toString())) {
+            plugin.getStorage().getSilencio().remove(player.getUniqueId().toString());
         }
     }
 }

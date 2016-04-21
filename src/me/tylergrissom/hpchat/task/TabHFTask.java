@@ -1,11 +1,8 @@
 package me.tylergrissom.hpchat.task;
 
-import com.elmakers.mine.bukkit.api.wand.Wand;
-import com.elmakers.mine.bukkit.magic.MagicPlugin;
 import me.tylergrissom.hpchat.Main;
-import me.tylergrissom.hpchat.scoreboard.SimpleScoreboard;
 import org.bukkit.Bukkit;
-import org.bukkit.craftbukkit.v1_8_R3.entity.CraftPlayer;
+import org.bukkit.craftbukkit.v1_9_R1.entity.CraftPlayer;
 import org.bukkit.entity.Player;
 import org.bukkit.scheduler.BukkitRunnable;
 
