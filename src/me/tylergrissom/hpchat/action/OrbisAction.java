@@ -4,7 +4,7 @@ import com.elmakers.mine.bukkit.action.BaseSpellAction;
 import com.elmakers.mine.bukkit.api.action.CastContext;
 import com.elmakers.mine.bukkit.api.spell.SpellResult;
 import com.elmakers.mine.bukkit.magic.MagicPlugin;
-import me.tylergrissom.hpchat.Main;
+import me.tylergrissom.hpchat.HPChatPlugin;
 import org.bukkit.Bukkit;
 import org.bukkit.Location;
 import org.bukkit.Material;
@@ -49,7 +49,7 @@ public class OrbisAction extends BaseSpellAction {
             return SpellResult.FAIL;
         }
 
-        Bukkit.getScheduler().runTaskLater(Main.staticPlugin, new BukkitRunnable() {
+        Bukkit.getScheduler().runTaskLater(HPChatPlugin.staticPlugin, new BukkitRunnable() {
             @Override
             public void run() {
                 entity.teleport(location.add(0, 4, 0));

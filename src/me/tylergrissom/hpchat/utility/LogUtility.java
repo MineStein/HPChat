@@ -1,6 +1,6 @@
 package me.tylergrissom.hpchat.utility;
 
-import me.tylergrissom.hpchat.Main;
+import me.tylergrissom.hpchat.HPChatPlugin;
 
 import java.io.File;
 import java.io.FileWriter;
@@ -12,12 +12,21 @@ import java.io.PrintWriter;
  */
 public class LogUtility {
 
-    private Main plugin;
+    private HPChatPlugin plugin;
 
-    public LogUtility(Main plugin) {
+    /**
+     * Instantiate a new LogUtility
+     * @param plugin The JavaPlugin instance of HPChat
+     */
+    public LogUtility(HPChatPlugin plugin) {
         this.plugin = plugin;
     }
 
+    /**
+     * Logs the message to the specified file path
+     * @param file The file path to log the message to
+     * @param message The message to log
+     */
     public void logToFile(String file, String message)
 
     {

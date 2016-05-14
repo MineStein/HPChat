@@ -1,6 +1,6 @@
 package me.tylergrissom.hpchat.listener;
 
-import me.tylergrissom.hpchat.Main;
+import me.tylergrissom.hpchat.HPChatPlugin;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
@@ -11,9 +11,9 @@ import org.bukkit.event.entity.EntityDamageByEntityEvent;
  */
 public class DamageListener implements Listener {
 
-    private Main plugin;
+    private HPChatPlugin plugin;
 
-    public DamageListener(Main plugin) {
+    public DamageListener(HPChatPlugin plugin) {
         this.plugin = plugin;
     }
 

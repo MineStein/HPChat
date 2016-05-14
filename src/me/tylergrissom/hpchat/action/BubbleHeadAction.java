@@ -3,7 +3,7 @@ package me.tylergrissom.hpchat.action;
 import com.elmakers.mine.bukkit.action.BaseSpellAction;
 import com.elmakers.mine.bukkit.api.action.CastContext;
 import com.elmakers.mine.bukkit.api.spell.SpellResult;
-import me.tylergrissom.hpchat.Main;
+import me.tylergrissom.hpchat.HPChatPlugin;
 import org.bukkit.Bukkit;
 import org.bukkit.Material;
 import org.bukkit.configuration.ConfigurationSection;
@@ -39,7 +39,7 @@ public class BubbleHeadAction extends BaseSpellAction {
             player.getInventory().setHelmet(new ItemStack(Material.GLASS));
             player.addPotionEffect(new PotionEffect(PotionEffectType.WATER_BREATHING, (((duration / 1000) * 20) - 5), 1, false, false));
 
-            Bukkit.getScheduler().runTaskLater(Main.staticPlugin, new BukkitRunnable() {
+            Bukkit.getScheduler().runTaskLater(HPChatPlugin.staticPlugin, new BukkitRunnable() {
                 @Override
                 public void run() {
                     player.getInventory().setHelmet(oldHelmet);

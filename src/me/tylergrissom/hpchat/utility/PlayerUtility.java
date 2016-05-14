@@ -1,7 +1,7 @@
 package me.tylergrissom.hpchat.utility;
 
 import com.elmakers.mine.bukkit.magic.MagicPlugin;
-import me.tylergrissom.hpchat.Main;
+import me.tylergrissom.hpchat.HPChatPlugin;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
 import ru.tehkode.permissions.bukkit.PermissionsEx;
@@ -11,12 +11,22 @@ import ru.tehkode.permissions.bukkit.PermissionsEx;
  */
 public class PlayerUtility {
 
-    private Main plugin;
+    private HPChatPlugin plugin;
 
-    public PlayerUtility(Main plugin) {
+    /**
+     * Instantiate a new PlayerUtility
+     * @param plugin The JavaPlugin instance of HPChat
+     */
+    public PlayerUtility(HPChatPlugin plugin) {
         this.plugin = plugin;
     }
 
+    /**
+     * Gets the player's house
+     * @param player The player to get the house of
+     * @param formatted Whether or not to format the house name by capitalizing and coloring
+     * @return The house as a string
+     */
     public String getHouse(Player player, boolean formatted) {
         char houseColor = getHouseColor(player);
 
@@ -53,6 +63,11 @@ public class PlayerUtility {
         }
     }
 
+    /**
+     * Gets the player's house primary color
+     * @param player The player to get the house for
+     * @return The color of the player's house
+     */
     public char getHouseColor(Player player) {
         String[] groupNames = PermissionsEx.getUser(player).getGroupNames();
         char houseColor = 'f';
@@ -76,6 +91,11 @@ public class PlayerUtility {
         return houseColor;
     }
 
+    /**
+     * Finds the wand of the player
+     * @param player The player to search for
+     * @return The wand of the player
+     */
     public ItemStack findWand(Player player) {
         for (ItemStack itemStack : player.getInventory()) {
             if (MagicPlugin.getAPI().isWand(itemStack)) {

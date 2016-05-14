@@ -1,6 +1,6 @@
 package me.tylergrissom.hpchat.command;
 
-import me.tylergrissom.hpchat.Main;
+import me.tylergrissom.hpchat.HPChatPlugin;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 
@@ -9,9 +9,9 @@ import org.bukkit.command.CommandSender;
  */
 public class HpChatCommand extends CommandBase {
 
-    private Main plugin;
+    private HPChatPlugin plugin;
 
-    public HpChatCommand(Main plugin) {
+    public HpChatCommand(HPChatPlugin plugin) {
         this.plugin = plugin;
     }
 

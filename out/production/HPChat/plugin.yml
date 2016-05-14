@@ -60,4 +60,4 @@ permissions:
   hpchat.hpchat.reload:
     default: op
 
-depend: [Vault]
+depend: [Vault, ProtocolLib]

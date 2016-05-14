@@ -1,6 +1,6 @@
 package me.tylergrissom.hpchat.command;
 
-import me.tylergrissom.hpchat.Main;
+import me.tylergrissom.hpchat.HPChatPlugin;
 import org.bukkit.Bukkit;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
@@ -14,9 +14,9 @@ import java.util.Date;
  */
 public class MsgCommand extends CommandBase {
 
-    private Main plugin;
+    private HPChatPlugin plugin;
 
-    public MsgCommand(Main plugin) {
+    public MsgCommand(HPChatPlugin plugin) {
         this.plugin = plugin;
     }
 
@@ -59,9 +59,9 @@ public class MsgCommand extends CommandBase {
                         }
                     }
 
-                    plugin.getLogUtility().logToFile("pm-log", "<timestamp='" + format.format(now) + "',ip='" + player.getAddress().toString() + "',uuid='" + player.getUniqueId().toString() + "'> " + player.getName() + " --> " + target.getName() + ": " + message);
+                    plugin.getLogUtility().logToFile("logs/pm/" + new SimpleDateFormat("dd-MM-yyyy").format(now), "<timestamp='" + format.format(now) + "',ip='" + player.getAddress().toString() + "',uuid='" + player.getUniqueId().toString() + "'> " + player.getName() + " --> " + target.getName() + ": " + message);
                 } else {
-                    plugin.getLogUtility().logToFile("pm-log", "<timestamp='" + format.format(now) + "'> Console --> " + target.getName() + ": " + message);
+                    plugin.getLogUtility().logToFile("logs/pm/" + new SimpleDateFormat("dd-MM-yyyy").format(now), "<timestamp='" + format.format(now) + "'> Console --> " + target.getName() + ": " + message);
                 }
             }
         }

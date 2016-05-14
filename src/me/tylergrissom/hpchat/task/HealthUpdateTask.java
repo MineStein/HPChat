@@ -1,6 +1,6 @@
 package me.tylergrissom.hpchat.task;
 
-import me.tylergrissom.hpchat.Main;
+import me.tylergrissom.hpchat.HPChatPlugin;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 import org.bukkit.scheduler.BukkitRunnable;
@@ -14,9 +14,9 @@ import org.bukkit.scoreboard.ScoreboardManager;
  */
 public class HealthUpdateTask extends BukkitRunnable {
 
-    private Main plugin;
+    private HPChatPlugin plugin;
 
-    public HealthUpdateTask(Main plugin) {
+    public HealthUpdateTask(HPChatPlugin plugin) {
         this.plugin = plugin;
     }
 

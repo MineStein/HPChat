@@ -1,13 +1,15 @@
 package me.tylergrissom.hpchat;
 
+import com.comphenix.protocol.Packets;
+import com.comphenix.protocol.ProtocolLibrary;
+import com.comphenix.protocol.events.ConnectionSide;
+import com.comphenix.protocol.events.PacketAdapter;
+import com.comphenix.protocol.events.PacketEvent;
 import com.elmakers.mine.bukkit.magic.MagicPlugin;
 import me.tylergrissom.hpchat.command.*;
 import me.tylergrissom.hpchat.listener.*;
 import me.tylergrissom.hpchat.storage.Storage;
-import me.tylergrissom.hpchat.task.BossBarTask;
-import me.tylergrissom.hpchat.task.HealthUpdateTask;
-import me.tylergrissom.hpchat.task.StorageCleanupTask;
-import me.tylergrissom.hpchat.task.TabHFTask;
+import me.tylergrissom.hpchat.task.*;
 import me.tylergrissom.hpchat.utility.*;
 import net.milkbowl.vault.chat.Chat;
 import net.milkbowl.vault.permission.Permission;
@@ -19,7 +21,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 /**
  * Copyright (c) 2013-2016 Tyler Grissom
  */
-public class Main extends JavaPlugin {
+public class HPChatPlugin extends JavaPlugin {
 
     /**
      * TODO
@@ -27,11 +29,9 @@ public class Main extends JavaPlugin {
      * - Prefix display limit
      * - Anti-spam
      * - Finish scoreboard
-     * - Optional login required (blindness and everything until password on join)
-     * - First join quiz (get gender to specify witch or wizard later, etc.)
+     * - Optional login required (hash and salt/strongest encryption protocols we can get/write) (blindness and everything until password on join)
      * - Player settings (login, etc.)
      * - Channels
-     * - Year system
      * - Make tab animation go each individual letter instead of word
      * - Make all instances of player naming show their house color
      * - Nick name support
@@ -41,14 +41,15 @@ public class Main extends JavaPlugin {
      * - Mod pre-made phrases
      * - Persona info keep
      * - Persona info shows ranks
-     * - Change boss bar color (when 1.9) and boss bar text color based on house
      * - /persona info [target] separate permission
+     * - isModerator boolean in PlayerMenuInventory
+     * - Custom unknown command message
      */
 
     // WARNING: DON'T USE UNLESS YOU HAVE TO (I.E. spell actions)
-    public static Main staticPlugin;
+    public static HPChatPlugin staticPlugin;
 
-    private Main plugin;
+    private HPChatPlugin plugin;
     private Permission permission;
     private Chat chat;
     private Storage storage;
@@ -87,7 +88,7 @@ public class Main extends JavaPlugin {
         return titleUtility;
     }
 
-    public Main getPlugin() {
+    public HPChatPlugin getPlugin() {
         return plugin;
     }
 
@@ -136,6 +137,7 @@ public class Main extends JavaPlugin {
         Bukkit.getServer().getScheduler().scheduleSyncRepeatingTask(this, new StorageCleanupTask(this), 20, 60 * 20);
         Bukkit.getServer().getScheduler().scheduleSyncRepeatingTask(this, new HealthUpdateTask(this), 20, 60 * 20);
         Bukkit.getServer().getScheduler().scheduleSyncRepeatingTask(this, new BossBarTask(this), 20, 5 * 20);
+        Bukkit.getServer().getScheduler().scheduleSyncRepeatingTask(this, new TimeExtensionTask(this), 20, 5 * 20);
 
         Bukkit.getServer().getPluginManager().registerEvents(new ChatListener(this), this);
         Bukkit.getServer().getPluginManager().registerEvents(new CommandListener(this), this);
@@ -143,6 +145,7 @@ public class Main extends JavaPlugin {
         Bukkit.getServer().getPluginManager().registerEvents(new QuitListener(this), this);
         Bukkit.getServer().getPluginManager().registerEvents(new ResourcePackListener(this), this);
         Bukkit.getServer().getPluginManager().registerEvents(new DamageListener(this), this);
+        Bukkit.getServer().getPluginManager().registerEvents(new InteractListener(this), this);
 
         getCommand("msg").setExecutor(new MsgCommand(this));
         getCommand("clearchat").setExecutor(new ClearChatCommand(this));

@@ -1,7 +1,5 @@
 boss-bar-messages:
-  - "&7Coming soon> &b&oEven §b§l§oMORE §b§ospells!"
-  - "&7Coming soon> &b&oAlpha testing"
-  - "&7Newest feature> &b&oMelofors spell"
+  - "%pColorComing soon> %sColorMore spells!"
 
 rules:
   - "Use proper etiquette"
@@ -11,3 +9,28 @@ players:
   uuid:
     lastKnownName: Username
     sessionsPlayed: 0
+
+mailbox:
+  uuid:
+    packages:
+      uuid:
+        message: &6Hey!
+        items:
+
+houseSettings:
+  gryffindor:
+    points: 0
+    primaryColor: 4
+    secondaryColor: e
+  slytherin:
+    points: 0
+    primaryColor: 2
+    secondaryColor: 7
+  ravenclaw:
+    points: 0
+    primaryColor: 9
+    secondaryColor: 7
+  hufflepuff:
+    points: 0
+    primaryColor: e
+    secondaryColor: 7

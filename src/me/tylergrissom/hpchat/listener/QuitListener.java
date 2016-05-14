@@ -1,6 +1,6 @@
 package me.tylergrissom.hpchat.listener;
 
-import me.tylergrissom.hpchat.Main;
+import me.tylergrissom.hpchat.HPChatPlugin;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
@@ -11,9 +11,9 @@ import org.bukkit.event.player.PlayerQuitEvent;
  */
 public class QuitListener implements Listener {
 
-    private Main plugin;
+    private HPChatPlugin plugin;
 
-    public QuitListener(Main plugin) {
+    public QuitListener(HPChatPlugin plugin) {
         this.plugin = plugin;
     }
 

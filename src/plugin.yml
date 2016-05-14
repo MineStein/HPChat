@@ -1,6 +1,6 @@
 name: HPChat
 version: 1.0.0
-main: me.tylergrissom.hpchat.Main
+HPChatPlugin: me.tylergrissom.hpchat.HPChatPlugin
 
 commands:
   msg:
@@ -60,4 +60,4 @@ permissions:
   hpchat.hpchat.reload:
     default: op
 
-depend: [Vault]
+depend: [Vault, ProtocolLib]

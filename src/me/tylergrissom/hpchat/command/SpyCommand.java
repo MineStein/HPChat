@@ -1,6 +1,6 @@
 package me.tylergrissom.hpchat.command;
 
-import me.tylergrissom.hpchat.Main;
+import me.tylergrissom.hpchat.HPChatPlugin;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
@@ -10,9 +10,9 @@ import org.bukkit.entity.Player;
  */
 public class SpyCommand extends CommandBase {
 
-    private Main plugin;
+    private HPChatPlugin plugin;
 
-    public SpyCommand(Main plugin) {
+    public SpyCommand(HPChatPlugin plugin) {
         this.plugin = plugin;
     }
 

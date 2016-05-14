@@ -2,8 +2,9 @@ package me.tylergrissom.hpchat.command;
 
 import com.elmakers.mine.bukkit.api.wand.Wand;
 import com.elmakers.mine.bukkit.magic.MagicPlugin;
-import me.tylergrissom.hpchat.Main;
+import me.tylergrissom.hpchat.HPChatPlugin;
 import me.tylergrissom.hpchat.scoreboard.SimpleScoreboard;
+import net.md_5.bungee.api.ChatColor;
 import org.bukkit.Bukkit;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
@@ -16,9 +17,9 @@ import org.bukkit.scheduler.BukkitRunnable;
  */
 public class PersonaCommand extends CommandBase {
 
-    private Main plugin;
+    private HPChatPlugin plugin;
 
-    public PersonaCommand(Main plugin) {
+    public PersonaCommand(HPChatPlugin plugin) {
         this.plugin = plugin;
     }
 
@@ -55,6 +56,15 @@ public class PersonaCommand extends CommandBase {
                                 scoreboard.blankLine();
                                 scoreboard.add("§7Spells learnt");
                                 scoreboard.add("  §" + houseColor + "§l" + wand.getSpells().size());
+                            }
+
+                            scoreboard.blankLine();
+                            scoreboard.add("§7Ranks");
+
+                            String[] groups = plugin.getChat().getPlayerGroups(player);
+
+                            for (String str : groups) {
+                                scoreboard.add("  §7- " + ChatColor.translateAlternateColorCodes('&', plugin.getChat().getGroupPrefix("", str)));
                             }
 
                             scoreboard.build();
@@ -100,6 +110,15 @@ public class PersonaCommand extends CommandBase {
                                 scoreboard.blankLine();
                                 scoreboard.add("§7Spells learnt");
                                 scoreboard.add("  §" + houseColor + "§l" + wand.getSpells().size());
+
+                                scoreboard.blankLine();
+                                scoreboard.add("§7Ranks");
+
+                                String[] groups = plugin.getChat().getPlayerGroups(target);
+
+                                for (String str : groups) {
+                                    scoreboard.add("  §7- " + ChatColor.translateAlternateColorCodes('&', plugin.getChat().getGroupPrefix("", str)));
+                                }
 
                                 scoreboard.build();
                                 scoreboard.send(((Player) sender));

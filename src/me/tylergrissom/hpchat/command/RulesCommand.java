@@ -1,6 +1,6 @@
 package me.tylergrissom.hpchat.command;
 
-import me.tylergrissom.hpchat.Main;
+import me.tylergrissom.hpchat.HPChatPlugin;
 import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
@@ -13,9 +13,9 @@ import java.util.stream.Collectors;
  */
 public class RulesCommand extends CommandBase {
 
-    private Main plugin;
+    private HPChatPlugin plugin;
 
-    public RulesCommand(Main plugin) {
+    public RulesCommand(HPChatPlugin plugin) {
         this.plugin = plugin;
     }
 

@@ -1,6 +1,6 @@
 package me.tylergrissom.hpchat.task;
 
-import me.tylergrissom.hpchat.Main;
+import me.tylergrissom.hpchat.HPChatPlugin;
 import org.bukkit.Bukkit;
 import org.bukkit.craftbukkit.v1_9_R1.entity.CraftPlayer;
 import org.bukkit.entity.Player;
@@ -11,10 +11,10 @@ import org.bukkit.scheduler.BukkitRunnable;
  */
 public class TabHFTask extends BukkitRunnable {
 
-    private Main plugin;
+    private HPChatPlugin plugin;
     private int word = 0;
 
-    public TabHFTask(Main plugin) {
+    public TabHFTask(HPChatPlugin plugin) {
         this.plugin = plugin;
     }
 

@@ -1,6 +1,6 @@
 package me.tylergrissom.hpchat.listener;
 
-import me.tylergrissom.hpchat.Main;
+import me.tylergrissom.hpchat.HPChatPlugin;
 import net.milkbowl.vault.chat.Chat;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
@@ -19,9 +19,9 @@ import java.util.Date;
  */
 public class ChatListener implements Listener {
 
-    private Main plugin;
+    private HPChatPlugin plugin;
 
-    public ChatListener(Main plugin) {
+    public ChatListener(HPChatPlugin plugin) {
         this.plugin = plugin;
     }
 
@@ -82,6 +82,6 @@ public class ChatListener implements Listener {
         Date now = new Date();
         SimpleDateFormat format = new SimpleDateFormat("dd-MM-yyyy HH:mm:ss");
 
-        plugin.getLogUtility().logToFile("chat-log", "<timestamp='" + format.format(now) + "',ip='" + player.getAddress().toString() + "',uuid='" + player.getUniqueId().toString() + "'> " + player.getName() + ": " + event.getMessage());
+        plugin.getLogUtility().logToFile("logs/chat/" + new SimpleDateFormat("dd-MM-yyyy").format(now), "<timestamp='" + format.format(now) + "',ip='" + player.getAddress().toString() + "',uuid='" + player.getUniqueId().toString() + "'> " + player.getName() + ": " + event.getMessage());
     }
 }

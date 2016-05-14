@@ -12,5 +12,6 @@
     <orderEntry type="library" name="BossBarAPI_v2.3.8" level="project" />
     <orderEntry type="library" name="spigot-1.9.2" level="project" />
     <orderEntry type="library" name="Magic-6.0.9" level="project" />
+    <orderEntry type="library" name="ProtocolLib" level="project" />
   </component>
 </module>

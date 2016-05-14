@@ -1,6 +1,6 @@
 package me.tylergrissom.hpchat.utility;
 
-import me.tylergrissom.hpchat.Main;
+import me.tylergrissom.hpchat.HPChatPlugin;
 import net.minecraft.server.v1_9_R1.IChatBaseComponent;
 import net.minecraft.server.v1_9_R1.PacketPlayOutPlayerListHeaderFooter;
 import net.minecraft.server.v1_9_R1.PacketPlayOutTitle;
@@ -16,12 +16,25 @@ import java.lang.reflect.Field;
  */
 public class TitleUtility {
 
-    private Main plugin;
+    private HPChatPlugin plugin;
 
-    public TitleUtility(Main plugin) {
+    /**
+     * Instantiate a new TitleUtility
+     * @param plugin The JavaPlugin instance of HPChat
+     */
+    public TitleUtility(HPChatPlugin plugin) {
         this.plugin = plugin;
     }
 
+    /**
+     * Send the player a title
+     * @param player The player to send the title to
+     * @param title The larger message on the top
+     * @param subtitle The smaller message on the bottom
+     * @param fadeIn How long it takes for the title to fade in (in ticks)
+     * @param stay How long the title will linger for (in ticks)
+     * @param fadeOut How long it takes for the title to fade out (in ticks)
+     */
     public void sendTitle(Player player, String title, String subtitle, int fadeIn, int stay, int fadeOut) {
         CraftPlayer craftplayer = (CraftPlayer) player;
         PlayerConnection connection = craftplayer.getHandle().playerConnection;
@@ -34,6 +47,12 @@ public class TitleUtility {
         connection.sendPacket(subtitlePacket);
     }
 
+    /**
+     * Send the player a tab header and footer
+     * @param player The player to send the tab update to
+     * @param header The header of the tab
+     * @param footer The footer of the tab
+     */
     public void sendTabHF(Player player, String header, String footer) {
         CraftPlayer craftplayer = (CraftPlayer) player;
         PlayerConnection connection = craftplayer.getHandle().playerConnection;

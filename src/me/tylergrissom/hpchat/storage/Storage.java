@@ -1,6 +1,6 @@
 package me.tylergrissom.hpchat.storage;
 
-import me.tylergrissom.hpchat.Main;
+import me.tylergrissom.hpchat.HPChatPlugin;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -12,12 +12,12 @@ public class Storage {
 
     // REMEMBER always update StorageCleanupTask when adding/removing/changing collections and other objects contained in here
 
-    private Main plugin;
+    private HPChatPlugin plugin;
     private List<String> commandSpy;
     private List<String> pmSpy;
     private List<String> silencio;
 
-    public Storage(Main plugin) {
+    public Storage(HPChatPlugin plugin) {
         this.plugin = plugin;
         this.commandSpy = new ArrayList<>();
         this.pmSpy = new ArrayList<>();

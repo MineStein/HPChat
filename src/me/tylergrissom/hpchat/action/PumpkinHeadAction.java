@@ -3,7 +3,7 @@ package me.tylergrissom.hpchat.action;
 import com.elmakers.mine.bukkit.action.BaseSpellAction;
 import com.elmakers.mine.bukkit.api.action.CastContext;
 import com.elmakers.mine.bukkit.api.spell.SpellResult;
-import me.tylergrissom.hpchat.Main;
+import me.tylergrissom.hpchat.HPChatPlugin;
 import org.bukkit.Bukkit;
 import org.bukkit.Material;
 import org.bukkit.block.Block;
@@ -30,7 +30,7 @@ public class PumpkinHeadAction extends BaseSpellAction {
 
             player.getInventory().setHelmet(new ItemStack(Material.PUMPKIN));
 
-            Bukkit.getScheduler().runTaskLater(Main.staticPlugin, new BukkitRunnable() {
+            Bukkit.getScheduler().runTaskLater(HPChatPlugin.staticPlugin, new BukkitRunnable() {
                 @Override
                 public void run() {
                     player.getInventory().setHelmet(currentHelmet);
@@ -49,7 +49,7 @@ public class PumpkinHeadAction extends BaseSpellAction {
 
                 currentBlock.setType(Material.PUMPKIN);
 
-                Bukkit.getScheduler().runTaskLater(Main.staticPlugin, new BukkitRunnable() {
+                Bukkit.getScheduler().runTaskLater(HPChatPlugin.staticPlugin, new BukkitRunnable() {
                     @Override
                     public void run() {
                         livingEntity.teleport(currentBlock.getLocation());

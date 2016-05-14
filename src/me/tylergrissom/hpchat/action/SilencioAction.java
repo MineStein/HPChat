@@ -3,7 +3,7 @@ package me.tylergrissom.hpchat.action;
 import com.elmakers.mine.bukkit.action.BaseSpellAction;
 import com.elmakers.mine.bukkit.api.action.CastContext;
 import com.elmakers.mine.bukkit.api.spell.SpellResult;
-import me.tylergrissom.hpchat.Main;
+import me.tylergrissom.hpchat.HPChatPlugin;
 import org.bukkit.Bukkit;
 import org.bukkit.configuration.ConfigurationSection;
 import org.bukkit.entity.Entity;
@@ -43,7 +43,7 @@ public class SilencioAction extends BaseSpellAction {
             player.sendMessage("Targeted");
         }
 
-        Bukkit.getScheduler().runTaskLater(Main.staticPlugin, new BukkitRunnable() {
+        Bukkit.getScheduler().runTaskLater(HPChatPlugin.staticPlugin, new BukkitRunnable() {
             @Override
             public void run() {
                 for (Player player : players) {
@@ -51,8 +51,8 @@ public class SilencioAction extends BaseSpellAction {
 
                     players.remove(player);
 
-                    if (Main.staticPlugin.getStorage().getSilencio().contains(player.getUniqueId().toString())) {
-                        Main.staticPlugin.getStorage().getSilencio().remove(player.getUniqueId().toString());
+                    if (HPChatPlugin.staticPlugin.getStorage().getSilencio().contains(player.getUniqueId().toString())) {
+                        HPChatPlugin.staticPlugin.getStorage().getSilencio().remove(player.getUniqueId().toString());
                     }
                 }
             }

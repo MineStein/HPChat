@@ -1,10 +1,11 @@
 package me.tylergrissom.hpchat.listener;
 
-import me.tylergrissom.hpchat.Main;
+import me.tylergrissom.hpchat.HPChatPlugin;
 import org.bukkit.configuration.ConfigurationSection;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
+import org.bukkit.event.entity.ProjectileLaunchEvent;
 import org.bukkit.event.player.PlayerJoinEvent;
 
 import java.util.Objects;
@@ -14,9 +15,9 @@ import java.util.Objects;
  */
 public class JoinListener implements Listener {
 
-    private Main plugin;
+    private HPChatPlugin plugin;
 
-    public JoinListener(Main plugin) {
+    public JoinListener(HPChatPlugin plugin) {
         this.plugin = plugin;
     }
 
@@ -39,5 +40,7 @@ public class JoinListener implements Listener {
                 section.set("lastKnownName", player.getName());
             }
         }
+
+        plugin.saveConfig();
     }
 }

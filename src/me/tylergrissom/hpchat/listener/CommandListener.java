@@ -1,6 +1,6 @@
 package me.tylergrissom.hpchat.listener;
 
-import me.tylergrissom.hpchat.Main;
+import me.tylergrissom.hpchat.HPChatPlugin;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
@@ -15,9 +15,9 @@ import java.util.Date;
  */
 public class CommandListener implements Listener {
 
-    private Main plugin;
+    private HPChatPlugin plugin;
 
-    public CommandListener(Main plugin) {
+    public CommandListener(HPChatPlugin plugin) {
         this.plugin = plugin;
     }
 
@@ -47,6 +47,6 @@ public class CommandListener implements Listener {
             }
         }
 
-        plugin.getLogUtility().logToFile("command-log", "(" + commandResult +  ") <timestamp='" + format.format(now) + "',ip='" + player.getAddress().toString() + "',uuid='" + player.getUniqueId().toString() + "'> " + player.getName() + ": " + event.getMessage());
+        plugin.getLogUtility().logToFile("logs/command/" + new SimpleDateFormat("dd-MM-yyyy").format(now), "(" + commandResult +  ") <timestamp='" + format.format(now) + "',ip='" + player.getAddress().toString() + "',uuid='" + player.getUniqueId().toString() + "'> " + player.getName() + ": " + event.getMessage());
     }
 }

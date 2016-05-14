@@ -3,7 +3,7 @@ package me.tylergrissom.hpchat.action;
 import com.elmakers.mine.bukkit.action.BaseSpellAction;
 import com.elmakers.mine.bukkit.api.action.CastContext;
 import com.elmakers.mine.bukkit.api.spell.SpellResult;
-import me.tylergrissom.hpchat.Main;
+import me.tylergrissom.hpchat.HPChatPlugin;
 import org.bukkit.Bukkit;
 import org.bukkit.Color;
 import org.bukkit.FireworkEffect;
@@ -41,7 +41,7 @@ public class SpawnBunnyAction extends BaseSpellAction {
             }
         }
 
-        Bukkit.getScheduler().runTaskLater(Main.staticPlugin, new BukkitRunnable() {
+        Bukkit.getScheduler().runTaskLater(HPChatPlugin.staticPlugin, new BukkitRunnable() {
             @Override
             public void run() {
                 for (Rabbit rabbit : rabbitList) {
@@ -61,7 +61,7 @@ public class SpawnBunnyAction extends BaseSpellAction {
                         fm.setPower(3);
                         f.setFireworkMeta(fm);
 
-                        Bukkit.getScheduler().runTaskLater(Main.staticPlugin, f::detonate, 1);
+                        Bukkit.getScheduler().runTaskLater(HPChatPlugin.staticPlugin, f::detonate, 1);
                     } catch (Exception e) {
                         e.printStackTrace();
                     }

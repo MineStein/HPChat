@@ -1,6 +1,6 @@
 package me.tylergrissom.hpchat.task;
 
-import me.tylergrissom.hpchat.Main;
+import me.tylergrissom.hpchat.HPChatPlugin;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 import org.bukkit.scheduler.BukkitRunnable;
@@ -10,9 +10,9 @@ import org.bukkit.scheduler.BukkitRunnable;
  */
 public class StorageCleanupTask extends BukkitRunnable {
 
-    private Main plugin;
+    private HPChatPlugin plugin;
 
-    public StorageCleanupTask(Main plugin) {
+    public StorageCleanupTask(HPChatPlugin plugin) {
         this.plugin = plugin;
     }
 
