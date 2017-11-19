@@ -1,6 +1,6 @@
 name: HPChat
 version: 1.0.0
-HPChatPlugin: me.tylergrissom.hpchat.HPChatPlugin
+main: me.tylergrissom.hpchat.HPChatPlugin
 
 commands:
   msg:
@@ -23,6 +23,9 @@ commands:
   rules:
     usage: /rules
     description: List all of the server rules.
+  modmessages:
+    usage: /modmessages
+    description: A set of pre-defined moderator messages.
 
 permissions:
   hpchat.*:

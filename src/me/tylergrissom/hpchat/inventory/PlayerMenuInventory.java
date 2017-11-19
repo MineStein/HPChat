@@ -43,4 +43,8 @@ public class PlayerMenuInventory extends CustomInventory {
 
         return inventory;
     }
+
+    public Inventory getStaffInventory() {
+        return null; // TODO This method
+    }
 }

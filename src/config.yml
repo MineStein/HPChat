@@ -1,9 +1,24 @@
+ping-message: '&4&lGodrics&6&lMC &7Test server'
+
 boss-bar-messages:
   - "%pColorComing soon> %sColorMore spells!"
 
 rules:
   - "Use proper etiquette"
   - "Be friendly towards your other players"
+
+staffRanks:
+  - developer
+  - leaddeveloper
+  - architect
+  - leadarchitect
+  - prefect
+  - headboy
+  - headgirl
+  - professor
+  - minister
+  - headauror
+  - headofhouse
 
 players:
   uuid:
@@ -14,7 +29,7 @@ mailbox:
   uuid:
     packages:
       uuid:
-        message: &6Hey!
+        message: '&6Hey!'
         items:
 
 houseSettings:

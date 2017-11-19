@@ -26,6 +26,9 @@ public class JoinListener implements Listener {
         final Player player = event.getPlayer();
         ConfigurationSection section = plugin.getConfig().getConfigurationSection("players");
 
+        player.setCustomNameVisible(true);
+        player.setCustomName(plugin.getPlayerUtility().getHouse(player, true) +  "§r" + player.getName());
+
         if (section.getConfigurationSection(player.getUniqueId().toString()) == null) {
             ConfigurationSection newSection = section.createSection(player.getUniqueId().toString());
 

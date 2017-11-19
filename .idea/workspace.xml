@@ -5,65 +5,66 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd374353-8dd4-48b3-a61b-2f1149f79194" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/ProtocolLib.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/me/tylergrissom/hpchat/action/ObliviateAction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/me/tylergrissom/hpchat/inventory/CustomInventory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/me/tylergrissom/hpchat/inventory/MailboxInventory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/me/tylergrissom/hpchat/inventory/PlayerMenuInventory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/me/tylergrissom/hpchat/item/ItemBuilder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/me/tylergrissom/hpchat/listener/InteractListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/me/tylergrissom/hpchat/player/HPPlayer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/me/tylergrissom/hpchat/task/TimeExtensionTask.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml___jb_tmp___" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/HPChat/me/tylergrissom/hpchat/Main.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/me/tylergrissom/hpchat/Main.java" afterPath="$PROJECT_DIR$/src/me/tylergrissom/hpchat/HPChatPlugin.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HPChat/me/tylergrissom/hpchat/action/RepariforsAction.class" afterPath="$PROJECT_DIR$/out/production/HPChat/me/tylergrissom/hpchat/action/RepariforsAction.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/HPChat/me/tylergrissom/hpchat/HPChatPlugin$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/HPChat/me/tylergrissom/hpchat/HPChatPlugin.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/HPChat/me/tylergrissom/hpchat/action/ObliviateAction.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/HPChat/me/tylergrissom/hpchat/inventory/CustomInventory.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/HPChat/me/tylergrissom/hpchat/inventory/MailboxInventory$Page.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/HPChat/me/tylergrissom/hpchat/inventory/MailboxInventory.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/HPChat/me/tylergrissom/hpchat/inventory/PlayerMenuInventory.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/HPChat/me/tylergrissom/hpchat/item/ItemBuilder.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/HPChat/me/tylergrissom/hpchat/listener/InteractListener.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/HPChat/me/tylergrissom/hpchat/listener/InventoryListener.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/HPChat/me/tylergrissom/hpchat/listener/PingListener.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/HPChat/me/tylergrissom/hpchat/player/HPPlayer.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/HPChat/me/tylergrissom/hpchat/task/TimeExtensionTask.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Magic_6_1_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/me/tylergrissom/hpchat/command/ModMessagesCommand.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/me/tylergrissom/hpchat/inventory/ModMessagesInventory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/me/tylergrissom/hpchat/listener/InventoryListener.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/me/tylergrissom/hpchat/listener/PingListener.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Magic_6_0_9.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HPChat/me/tylergrissom/hpchat/action/BubbleHeadAction.class" afterPath="$PROJECT_DIR$/out/production/HPChat/me/tylergrissom/hpchat/action/BubbleHeadAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HPChat/me/tylergrissom/hpchat/action/OrbisAction.class" afterPath="$PROJECT_DIR$/out/production/HPChat/me/tylergrissom/hpchat/action/OrbisAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HPChat/me/tylergrissom/hpchat/action/PumpkinHeadAction.class" afterPath="$PROJECT_DIR$/out/production/HPChat/me/tylergrissom/hpchat/action/PumpkinHeadAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HPChat/me/tylergrissom/hpchat/action/SilencioAction$1.class" afterPath="$PROJECT_DIR$/out/production/HPChat/me/tylergrissom/hpchat/action/SilencioAction$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HPChat/me/tylergrissom/hpchat/action/SilencioAction.class" afterPath="$PROJECT_DIR$/out/production/HPChat/me/tylergrissom/hpchat/action/SilencioAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HPChat/me/tylergrissom/hpchat/action/SpawnBirdAction$1.class" afterPath="$PROJECT_DIR$/out/production/HPChat/me/tylergrissom/hpchat/action/SpawnBirdAction$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HPChat/me/tylergrissom/hpchat/action/SpawnBirdAction.class" afterPath="$PROJECT_DIR$/out/production/HPChat/me/tylergrissom/hpchat/action/SpawnBirdAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HPChat/me/tylergrissom/hpchat/action/SpawnBunnyAction$1.class" afterPath="$PROJECT_DIR$/out/production/HPChat/me/tylergrissom/hpchat/action/SpawnBunnyAction$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HPChat/me/tylergrissom/hpchat/action/SpawnBunnyAction.class" afterPath="$PROJECT_DIR$/out/production/HPChat/me/tylergrissom/hpchat/action/SpawnBunnyAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HPChat/me/tylergrissom/hpchat/command/ChannelsCommand.class" afterPath="$PROJECT_DIR$/out/production/HPChat/me/tylergrissom/hpchat/command/ChannelsCommand.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HPChat/me/tylergrissom/hpchat/command/ClearChatCommand.class" afterPath="$PROJECT_DIR$/out/production/HPChat/me/tylergrissom/hpchat/command/ClearChatCommand.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HPChat/me/tylergrissom/hpchat/command/HpChatCommand.class" afterPath="$PROJECT_DIR$/out/production/HPChat/me/tylergrissom/hpchat/command/HpChatCommand.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HPChat/me/tylergrissom/hpchat/command/MsgCommand.class" afterPath="$PROJECT_DIR$/out/production/HPChat/me/tylergrissom/hpchat/command/MsgCommand.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HPChat/me/tylergrissom/hpchat/command/PersonaCommand$1.class" afterPath="$PROJECT_DIR$/out/production/HPChat/me/tylergrissom/hpchat/command/PersonaCommand$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HPChat/me/tylergrissom/hpchat/command/PersonaCommand$2.class" afterPath="$PROJECT_DIR$/out/production/HPChat/me/tylergrissom/hpchat/command/PersonaCommand$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HPChat/me/tylergrissom/hpchat/command/NPCCommand.class" afterPath="$PROJECT_DIR$/out/production/HPChat/me/tylergrissom/hpchat/command/NPCCommand.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HPChat/me/tylergrissom/hpchat/command/PersonaCommand.class" afterPath="$PROJECT_DIR$/out/production/HPChat/me/tylergrissom/hpchat/command/PersonaCommand.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HPChat/me/tylergrissom/hpchat/command/RulesCommand.class" afterPath="$PROJECT_DIR$/out/production/HPChat/me/tylergrissom/hpchat/command/RulesCommand.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HPChat/me/tylergrissom/hpchat/command/SpyCommand.class" afterPath="$PROJECT_DIR$/out/production/HPChat/me/tylergrissom/hpchat/command/SpyCommand.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HPChat/me/tylergrissom/hpchat/listener/ChatListener.class" afterPath="$PROJECT_DIR$/out/production/HPChat/me/tylergrissom/hpchat/listener/ChatListener.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HPChat/me/tylergrissom/hpchat/listener/CommandListener.class" afterPath="$PROJECT_DIR$/out/production/HPChat/me/tylergrissom/hpchat/listener/CommandListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HPChat/me/tylergrissom/hpchat/listener/DamageListener.class" afterPath="$PROJECT_DIR$/out/production/HPChat/me/tylergrissom/hpchat/listener/DamageListener.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HPChat/me/tylergrissom/hpchat/listener/JoinListener.class" afterPath="$PROJECT_DIR$/out/production/HPChat/me/tylergrissom/hpchat/listener/JoinListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HPChat/me/tylergrissom/hpchat/listener/QuitListener.class" afterPath="$PROJECT_DIR$/out/production/HPChat/me/tylergrissom/hpchat/listener/QuitListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HPChat/me/tylergrissom/hpchat/listener/ResourcePackListener.class" afterPath="$PROJECT_DIR$/out/production/HPChat/me/tylergrissom/hpchat/listener/ResourcePackListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HPChat/me/tylergrissom/hpchat/storage/Storage.class" afterPath="$PROJECT_DIR$/out/production/HPChat/me/tylergrissom/hpchat/storage/Storage.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HPChat/me/tylergrissom/hpchat/task/BossBarTask.class" afterPath="$PROJECT_DIR$/out/production/HPChat/me/tylergrissom/hpchat/task/BossBarTask.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HPChat/me/tylergrissom/hpchat/task/HealthUpdateTask.class" afterPath="$PROJECT_DIR$/out/production/HPChat/me/tylergrissom/hpchat/task/HealthUpdateTask.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HPChat/me/tylergrissom/hpchat/task/StorageCleanupTask.class" afterPath="$PROJECT_DIR$/out/production/HPChat/me/tylergrissom/hpchat/task/StorageCleanupTask.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HPChat/me/tylergrissom/hpchat/task/TabHFTask.class" afterPath="$PROJECT_DIR$/out/production/HPChat/me/tylergrissom/hpchat/task/TabHFTask.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HPChat/me/tylergrissom/hpchat/utility/ActionBarUtility.class" afterPath="$PROJECT_DIR$/out/production/HPChat/me/tylergrissom/hpchat/utility/ActionBarUtility.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HPChat/me/tylergrissom/hpchat/utility/FreezeUtility.class" afterPath="$PROJECT_DIR$/out/production/HPChat/me/tylergrissom/hpchat/utility/FreezeUtility.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HPChat/me/tylergrissom/hpchat/utility/LogUtility.class" afterPath="$PROJECT_DIR$/out/production/HPChat/me/tylergrissom/hpchat/utility/LogUtility.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HPChat/me/tylergrissom/hpchat/utility/PlayerUtility.class" afterPath="$PROJECT_DIR$/out/production/HPChat/me/tylergrissom/hpchat/utility/PlayerUtility.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HPChat/me/tylergrissom/hpchat/utility/TitleUtility.class" afterPath="$PROJECT_DIR$/out/production/HPChat/me/tylergrissom/hpchat/utility/TitleUtility.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HPChat.iml" afterPath="$PROJECT_DIR$/HPChat.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HPChat/config.yml" afterPath="$PROJECT_DIR$/out/production/HPChat/config.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HPChat/plugin.yml" afterPath="$PROJECT_DIR$/out/production/HPChat/plugin.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/config.yml" afterPath="$PROJECT_DIR$/src/config.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/me/tylergrissom/hpchat/action/BubbleHeadAction.java" afterPath="$PROJECT_DIR$/src/me/tylergrissom/hpchat/action/BubbleHeadAction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/me/tylergrissom/hpchat/action/OrbisAction.java" afterPath="$PROJECT_DIR$/src/me/tylergrissom/hpchat/action/OrbisAction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/me/tylergrissom/hpchat/action/PumpkinHeadAction.java" afterPath="$PROJECT_DIR$/src/me/tylergrissom/hpchat/action/PumpkinHeadAction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/me/tylergrissom/hpchat/action/SilencioAction.java" afterPath="$PROJECT_DIR$/src/me/tylergrissom/hpchat/action/SilencioAction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/me/tylergrissom/hpchat/action/SpawnBirdAction.java" afterPath="$PROJECT_DIR$/src/me/tylergrissom/hpchat/action/SpawnBirdAction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/me/tylergrissom/hpchat/action/SpawnBunnyAction.java" afterPath="$PROJECT_DIR$/src/me/tylergrissom/hpchat/action/SpawnBunnyAction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/me/tylergrissom/hpchat/command/ChannelsCommand.java" afterPath="$PROJECT_DIR$/src/me/tylergrissom/hpchat/command/ChannelsCommand.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/me/tylergrissom/hpchat/command/ClearChatCommand.java" afterPath="$PROJECT_DIR$/src/me/tylergrissom/hpchat/command/ClearChatCommand.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/me/tylergrissom/hpchat/command/HpChatCommand.java" afterPath="$PROJECT_DIR$/src/me/tylergrissom/hpchat/command/HpChatCommand.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/me/tylergrissom/hpchat/command/MsgCommand.java" afterPath="$PROJECT_DIR$/src/me/tylergrissom/hpchat/command/MsgCommand.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/me/tylergrissom/hpchat/command/NPCCommand.java" afterPath="$PROJECT_DIR$/src/me/tylergrissom/hpchat/command/NPCCommand.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/me/tylergrissom/hpchat/command/PersonaCommand.java" afterPath="$PROJECT_DIR$/src/me/tylergrissom/hpchat/command/PersonaCommand.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/me/tylergrissom/hpchat/command/RulesCommand.java" afterPath="$PROJECT_DIR$/src/me/tylergrissom/hpchat/command/RulesCommand.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/me/tylergrissom/hpchat/command/SpyCommand.java" afterPath="$PROJECT_DIR$/src/me/tylergrissom/hpchat/command/SpyCommand.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/me/tylergrissom/hpchat/listener/ChatListener.java" afterPath="$PROJECT_DIR$/src/me/tylergrissom/hpchat/listener/ChatListener.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/me/tylergrissom/hpchat/listener/CommandListener.java" afterPath="$PROJECT_DIR$/src/me/tylergrissom/hpchat/listener/CommandListener.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/me/tylergrissom/hpchat/listener/DamageListener.java" afterPath="$PROJECT_DIR$/src/me/tylergrissom/hpchat/listener/DamageListener.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/me/tylergrissom/hpchat/HPChatPlugin.java" afterPath="$PROJECT_DIR$/src/me/tylergrissom/hpchat/HPChatPlugin.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/me/tylergrissom/hpchat/inventory/PlayerMenuInventory.java" afterPath="$PROJECT_DIR$/src/me/tylergrissom/hpchat/inventory/PlayerMenuInventory.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/me/tylergrissom/hpchat/listener/JoinListener.java" afterPath="$PROJECT_DIR$/src/me/tylergrissom/hpchat/listener/JoinListener.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/me/tylergrissom/hpchat/listener/QuitListener.java" afterPath="$PROJECT_DIR$/src/me/tylergrissom/hpchat/listener/QuitListener.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/me/tylergrissom/hpchat/listener/ResourcePackListener.java" afterPath="$PROJECT_DIR$/src/me/tylergrissom/hpchat/listener/ResourcePackListener.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/me/tylergrissom/hpchat/storage/Storage.java" afterPath="$PROJECT_DIR$/src/me/tylergrissom/hpchat/storage/Storage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/me/tylergrissom/hpchat/task/BossBarTask.java" afterPath="$PROJECT_DIR$/src/me/tylergrissom/hpchat/task/BossBarTask.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/me/tylergrissom/hpchat/task/HealthUpdateTask.java" afterPath="$PROJECT_DIR$/src/me/tylergrissom/hpchat/task/HealthUpdateTask.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/me/tylergrissom/hpchat/task/StorageCleanupTask.java" afterPath="$PROJECT_DIR$/src/me/tylergrissom/hpchat/task/StorageCleanupTask.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/me/tylergrissom/hpchat/task/TabHFTask.java" afterPath="$PROJECT_DIR$/src/me/tylergrissom/hpchat/task/TabHFTask.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/me/tylergrissom/hpchat/utility/ActionBarUtility.java" afterPath="$PROJECT_DIR$/src/me/tylergrissom/hpchat/utility/ActionBarUtility.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/me/tylergrissom/hpchat/utility/FreezeUtility.java" afterPath="$PROJECT_DIR$/src/me/tylergrissom/hpchat/utility/FreezeUtility.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/me/tylergrissom/hpchat/utility/LogUtility.java" afterPath="$PROJECT_DIR$/src/me/tylergrissom/hpchat/utility/LogUtility.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/me/tylergrissom/hpchat/utility/PlayerUtility.java" afterPath="$PROJECT_DIR$/src/me/tylergrissom/hpchat/utility/PlayerUtility.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/me/tylergrissom/hpchat/utility/TitleUtility.java" afterPath="$PROJECT_DIR$/src/me/tylergrissom/hpchat/utility/TitleUtility.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/plugin.yml" afterPath="$PROJECT_DIR$/src/plugin.yml" />
     </list>
     <ignored path="HPChat.iws" />
@@ -85,7 +86,20 @@
     <favorites_list name="HPChat" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="ChatListener.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/me/tylergrissom/hpchat/listener/ChatListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-362">
+              <caret line="44" column="33" selection-start-line="44" selection-start-column="33" selection-end-line="44" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -105,21 +119,15 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/me/tylergrissom/hpchat/task/ClearScoreboardTask.java" />
-        <option value="$PROJECT_DIR$/src/me/tylergrissom/hpchat/action/NoChatAction.java" />
-        <option value="$PROJECT_DIR$/src/me/tylergrissom/hpchat/listener/HealthListener.java" />
-        <option value="$PROJECT_DIR$/src/me/tylergrissom/hpchat/utility/FireworkEffectUtility.java" />
         <option value="$PROJECT_DIR$/src/me/tylergrissom/hpchat/action/PetrificusTotalusAction.java" />
         <option value="$PROJECT_DIR$/src/me/tylergrissom/hpchat/action/Reparifors.java" />
         <option value="$PROJECT_DIR$/src/me/tylergrissom/hpchat/action/RepariforsAction.java" />
-        <option value="$PROJECT_DIR$/src/config.yml" />
         <option value="$PROJECT_DIR$/src/me/tylergrissom/hpchat/utility/MuggleUtility.java" />
         <option value="$PROJECT_DIR$/src/me/tylergrissom/hpchat/action/ObliviateAction.java" />
         <option value="$PROJECT_DIR$/src/me/tylergrissom/hpchat/action/ObliviateMaximaAction.java" />
         <option value="$PROJECT_DIR$/src/me/tylergrissom/hpchat/listener/CommandPreprocessListener.java" />
         <option value="$PROJECT_DIR$/src/me/tylergrissom/hpchat/Main.java" />
         <option value="$PROJECT_DIR$/src/me/tylergrissom/hpchat/player/HPPlayer.java" />
-        <option value="$PROJECT_DIR$/src/me/tylergrissom/hpchat/HPChatPlugin.java" />
         <option value="$PROJECT_DIR$/src/me/tylergrissom/hpchat/action/BubbleHeadAction.java" />
         <option value="$PROJECT_DIR$/src/me/tylergrissom/hpchat/action/OrbisAction.java" />
         <option value="$PROJECT_DIR$/src/me/tylergrissom/hpchat/action/PumpkinHeadAction.java" />
@@ -136,12 +144,10 @@
         <option value="$PROJECT_DIR$/src/me/tylergrissom/hpchat/command/SpyCommand.java" />
         <option value="$PROJECT_DIR$/src/me/tylergrissom/hpchat/inventory/CustomInventory.java" />
         <option value="$PROJECT_DIR$/src/me/tylergrissom/hpchat/inventory/MailboxInventory.java" />
-        <option value="$PROJECT_DIR$/src/me/tylergrissom/hpchat/inventory/PlayerMenuInventory.java" />
         <option value="$PROJECT_DIR$/src/me/tylergrissom/hpchat/listener/ChatListener.java" />
         <option value="$PROJECT_DIR$/src/me/tylergrissom/hpchat/listener/CommandListener.java" />
         <option value="$PROJECT_DIR$/src/me/tylergrissom/hpchat/listener/DamageListener.java" />
         <option value="$PROJECT_DIR$/src/me/tylergrissom/hpchat/listener/InteractListener.java" />
-        <option value="$PROJECT_DIR$/src/me/tylergrissom/hpchat/listener/JoinListener.java" />
         <option value="$PROJECT_DIR$/src/me/tylergrissom/hpchat/listener/QuitListener.java" />
         <option value="$PROJECT_DIR$/src/me/tylergrissom/hpchat/listener/ResourcePackListener.java" />
         <option value="$PROJECT_DIR$/src/me/tylergrissom/hpchat/storage/Storage.java" />
@@ -152,10 +158,18 @@
         <option value="$PROJECT_DIR$/src/me/tylergrissom/hpchat/task/TimeExtensionTask.java" />
         <option value="$PROJECT_DIR$/src/me/tylergrissom/hpchat/utility/ActionBarUtility.java" />
         <option value="$PROJECT_DIR$/src/me/tylergrissom/hpchat/utility/FreezeUtility.java" />
-        <option value="$PROJECT_DIR$/src/plugin.yml" />
         <option value="$PROJECT_DIR$/src/me/tylergrissom/hpchat/utility/LogUtility.java" />
         <option value="$PROJECT_DIR$/src/me/tylergrissom/hpchat/utility/PlayerUtility.java" />
         <option value="$PROJECT_DIR$/src/me/tylergrissom/hpchat/utility/TitleUtility.java" />
+        <option value="$PROJECT_DIR$/src/me/tylergrissom/hpchat/inventory/PlayerMenuInventory.java" />
+        <option value="$PROJECT_DIR$/src/me/tylergrissom/hpchat/listener/PingListener.java" />
+        <option value="$PROJECT_DIR$/src/me/tylergrissom/hpchat/command/ModMessagesCommand.java" />
+        <option value="$PROJECT_DIR$/src/plugin.yml" />
+        <option value="$PROJECT_DIR$/src/config.yml" />
+        <option value="$PROJECT_DIR$/src/me/tylergrissom/hpchat/inventory/ModMessagesInventory.java" />
+        <option value="$PROJECT_DIR$/src/me/tylergrissom/hpchat/listener/InventoryListener.java" />
+        <option value="$PROJECT_DIR$/src/me/tylergrissom/hpchat/HPChatPlugin.java" />
+        <option value="$PROJECT_DIR$/src/me/tylergrissom/hpchat/listener/JoinListener.java" />
       </list>
     </option>
   </component>
@@ -167,10 +181,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="-7" />
+    <option name="width" value="1924" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -197,9 +210,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -250,13 +261,235 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HPChat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HPChat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hpchat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utility" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HPChat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HPChat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hpchat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="task" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HPChat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HPChat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hpchat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="storage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HPChat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HPChat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hpchat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scoreboard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HPChat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HPChat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hpchat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="player" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HPChat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HPChat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hpchat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="listener" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HPChat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HPChat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hpchat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="item" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HPChat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HPChat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hpchat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="inventory" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HPChat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HPChat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hpchat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="command" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HPChat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HPChat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hpchat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="action" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../1.9 Server/plugins/Magic-6.1.2.jar!/" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.16015625" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="SearchEverywhereHistoryKey" value="§3&#9;null&#9;null" />
@@ -524,15 +757,22 @@
       <option name="presentableId" value="Default" />
       <updated>1459143621498</updated>
     </task>
+    <task id="LOCAL-00001" summary="This is a big one.&#10;&#10;&lt;+&gt; Updated all utilities to include documentation for the future API&#10;&lt;+&gt; Updated RepariforsAction&#10;&lt;+&gt; Changed &quot;Main&quot; to &quot;HPChatPlugin&quot; in preparation for the future API&#10;&lt;+&gt; Updated most files to reflect the change of the main class&#10;&lt;+&gt; Updated boss bar task to change the color of itself and the messages based on your house&#10;&lt;+&gt; Changed how the command, PM, and chat logs work to create a new file for each day&#10;&lt;+&gt; Added TimeExtensionTask.java to double the time of the day/night cycle&#10;&lt;+&gt; Began writing the more robust HPPlayer.java&#10;&lt;+&gt; Began working on player settings (shift-click)&#10;&lt;+&gt; Began working on mail system&#10;&lt;+&gt; Added ItemBuilder.java for faster item creation&#10;&lt;+&gt; Added ProtocolLib as a dependency for the plugin.yml&#10;&lt;+&gt; Added configuration options for house points (not implemented)&#10;&lt;+&gt; Added more robust configuration options for the boss bar">
+      <created>1463247559844</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1463247559844</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <frame x="-7" y="0" width="1924" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35652173" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
@@ -541,13 +781,15 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35652173" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -593,6 +835,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="This is a big one.&#10;&#10;&lt;+&gt; Updated all utilities to include documentation for the future API&#10;&lt;+&gt; Updated RepariforsAction&#10;&lt;+&gt; Changed &quot;Main&quot; to &quot;HPChatPlugin&quot; in preparation for the future API&#10;&lt;+&gt; Updated most files to reflect the change of the main class&#10;&lt;+&gt; Updated boss bar task to change the color of itself and the messages based on your house&#10;&lt;+&gt; Changed how the command, PM, and chat logs work to create a new file for each day&#10;&lt;+&gt; Added TimeExtensionTask.java to double the time of the day/night cycle&#10;&lt;+&gt; Began writing the more robust HPPlayer.java&#10;&lt;+&gt; Began working on player settings (shift-click)&#10;&lt;+&gt; Began working on mail system&#10;&lt;+&gt; Added ItemBuilder.java for faster item creation&#10;&lt;+&gt; Added ProtocolLib as a dependency for the plugin.yml&#10;&lt;+&gt; Added configuration options for house points (not implemented)&#10;&lt;+&gt; Added more robust configuration options for the boss bar" />
+    <option name="LAST_COMMIT_MESSAGE" value="This is a big one.&#10;&#10;&lt;+&gt; Updated all utilities to include documentation for the future API&#10;&lt;+&gt; Updated RepariforsAction&#10;&lt;+&gt; Changed &quot;Main&quot; to &quot;HPChatPlugin&quot; in preparation for the future API&#10;&lt;+&gt; Updated most files to reflect the change of the main class&#10;&lt;+&gt; Updated boss bar task to change the color of itself and the messages based on your house&#10;&lt;+&gt; Changed how the command, PM, and chat logs work to create a new file for each day&#10;&lt;+&gt; Added TimeExtensionTask.java to double the time of the day/night cycle&#10;&lt;+&gt; Began writing the more robust HPPlayer.java&#10;&lt;+&gt; Began working on player settings (shift-click)&#10;&lt;+&gt; Began working on mail system&#10;&lt;+&gt; Added ItemBuilder.java for faster item creation&#10;&lt;+&gt; Added ProtocolLib as a dependency for the plugin.yml&#10;&lt;+&gt; Added configuration options for house points (not implemented)&#10;&lt;+&gt; Added more robust configuration options for the boss bar" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <option name="time" value="1" />
@@ -604,35 +850,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/../../Server/plugins/Magic-5.5.4.jar!/com/elmakers/mine/bukkit/action/builtin/PotionEffectAction.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1952">
-          <caret line="39" column="27" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_65/src.zip!/java/lang/Runnable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="67" column="25" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../Server/spigot-1.8.8.jar!/org/bukkit/Color.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="30" column="48" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../Server/plugins/Magic-5.5.4.jar!/com/elmakers/mine/bukkit/slikey/effectlib/effect/DnaEffect.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/tylergrissom/hpchat/action/PetrificusTotalusAction.java" />
     <entry file="file://$PROJECT_DIR$/src/me/tylergrissom/hpchat/action/RepariforsAction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="73">
@@ -640,82 +857,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/me/tylergrissom/hpchat/utility/MuggleUtility.java" />
-    <entry file="file://$PROJECT_DIR$/src/me/tylergrissom/hpchat/action/ObliviateMaximaAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/tylergrissom/hpchat/action/ObliviateMaximaAction.java" />
     <entry file="file://$PROJECT_DIR$/src/me/tylergrissom/hpchat/action/ObliviateAction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/tylergrissom/hpchat/listener/CommandPreprocessListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="757">
-          <caret line="29" column="57" selection-start-line="29" selection-start-column="57" selection-end-line="29" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../1.9 Server/plugins/Magic-6.0.9.jar!/com/elmakers/mine/bukkit/api/magic/Mage.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="90" column="9" selection-start-line="90" selection-start-column="9" selection-end-line="90" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/tylergrissom/hpchat/utility/FireworkEffectUtility.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-945">
-          <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/tylergrissom/hpchat/player/HPPlayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="50" selection-start-line="3" selection-start-column="50" selection-end-line="3" selection-end-column="50" />
-          <folding>
-            <element signature="e#458#459#0" expanded="true" />
-            <element signature="e#494#495#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/tylergrissom/hpchat/HPChatPlugin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="49" column="18" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/tylergrissom/hpchat/listener/CommandPreprocessListener.java" />
+    <entry file="jar://$PROJECT_DIR$/../../1.9 Server/plugins/Magic-6.0.9.jar!/com/elmakers/mine/bukkit/api/magic/Mage.class" />
     <entry file="file://$PROJECT_DIR$/src/me/tylergrissom/hpchat/action/BubbleHeadAction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -723,7 +879,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -731,7 +886,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -739,15 +893,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/tylergrissom/hpchat/action/SpawnBirdAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -755,7 +900,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -763,7 +907,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -771,7 +914,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -779,7 +921,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -787,7 +928,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -795,7 +935,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -803,7 +942,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -811,7 +949,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -819,7 +956,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -827,7 +963,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -835,23 +970,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/tylergrissom/hpchat/inventory/PlayerMenuInventory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/tylergrissom/hpchat/listener/ChatListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -859,7 +977,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -867,7 +984,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -875,15 +991,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/tylergrissom/hpchat/listener/JoinListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -891,7 +998,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -899,7 +1005,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -907,7 +1012,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -915,15 +1019,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/plugin.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -931,7 +1026,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -939,7 +1033,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -947,7 +1040,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -955,7 +1047,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -963,9 +1054,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -973,6 +1061,117 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="675">
           <caret line="27" column="40" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/tylergrissom/hpchat/utility/TitleUtility.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="41">
+          <caret line="53" column="42" selection-start-line="53" selection-start-column="42" selection-end-line="53" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/tylergrissom/hpchat/task/TimeExtensionTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/tylergrissom/hpchat/inventory/PlayerMenuInventory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="757">
+          <caret line="47" column="40" selection-start-line="47" selection-start-column="40" selection-end-line="47" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../1.9 Server/spigot-1.9.2.jar!/net/md_5/bungee/api/ChatColor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/tylergrissom/hpchat/listener/PingListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="32" column="14" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/plugin.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="729">
+          <caret line="27" column="57" selection-start-line="27" selection-start-column="57" selection-end-line="27" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/tylergrissom/hpchat/command/ModMessagesCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="28" column="57" selection-start-line="28" selection-start-column="57" selection-end-line="28" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/tylergrissom/hpchat/inventory/ModMessagesInventory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="32" column="24" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#488#489#0" expanded="true" />
+            <element signature="e#524#525#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/tylergrissom/hpchat/utility/FireworkEffectUtility.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="40" column="28" selection-start-line="0" selection-start-column="0" selection-end-line="110" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/tylergrissom/hpchat/listener/JoinListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="29" column="106" selection-start-line="29" selection-start-column="106" selection-end-line="29" selection-end-column="106" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/tylergrissom/hpchat/action/SpawnBirdAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="55" column="39" selection-start-line="55" selection-start-column="39" selection-end-line="55" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/tylergrissom/hpchat/listener/InventoryListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="829">
+          <caret line="47" column="58" selection-start-line="47" selection-start-column="58" selection-end-line="47" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/tylergrissom/hpchat/player/HPPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-278">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -981,28 +1180,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/me/tylergrissom/hpchat/utility/PlayerUtility.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-890">
-          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        <state relative-caret-position="54">
+          <caret line="6" column="51" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/tylergrissom/hpchat/HPChatPlugin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="103" column="16" selection-start-line="103" selection-start-column="16" selection-end-line="103" selection-end-column="16" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#3192#3193#0" expanded="true" />
+            <element signature="e#3219#3220#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/tylergrissom/hpchat/utility/TitleUtility.java">
+    <entry file="file://$PROJECT_DIR$/src/me/tylergrissom/hpchat/listener/ChatListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="41">
-          <caret line="53" column="42" selection-start-line="53" selection-start-column="42" selection-end-line="53" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/tylergrissom/hpchat/task/TimeExtensionTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="-362">
+          <caret line="44" column="33" selection-start-line="44" selection-start-column="33" selection-end-line="44" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1068,6 +1266,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -1075,7 +1274,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>spigot-1.8.8</last-edited>
+          <last-edited>Magic-6.1.2</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
